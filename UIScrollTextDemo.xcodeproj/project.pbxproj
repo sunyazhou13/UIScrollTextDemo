@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7655242241F084007F833B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7655232241F084007F833B /* AppDelegate.m */; };
+		3F7655272241F084007F833B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7655262241F084007F833B /* ViewController.m */; };
+		3F76552A2241F084007F833B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7655282241F084007F833B /* Main.storyboard */; };
+		3F76552C2241F086007F833B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F76552B2241F086007F833B /* Assets.xcassets */; };
+		3F76552F2241F086007F833B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F76552D2241F086007F833B /* LaunchScreen.storyboard */; };
+		3F7655322241F086007F833B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7655312241F086007F833B /* main.m */; };
+		3F76553E2241F119007F833B /* NSAttributedString+SizeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7655382241F118007F833B /* NSAttributedString+SizeExtension.m */; };
+		3F76553F2241F119007F833B /* UIScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76553C2241F119007F833B /* UIScrollTextView.m */; };
+		3F7655402241F119007F833B /* NSString+StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76553D2241F119007F833B /* NSString+StringExtension.m */; };
+		BFB0414E743377F276C57885 /* libPods-UIScrollTextDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294CB3D0CC81D17996948330 /* libPods-UIScrollTextDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0215D28B41E4582D77608B6A /* Pods-UIScrollTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollTextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollTextDemo/Pods-UIScrollTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		294CB3D0CC81D17996948330 /* libPods-UIScrollTextDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIScrollTextDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F76551F2241F084007F833B /* UIScrollTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7655222241F084007F833B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7655232241F084007F833B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7655252241F084007F833B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F7655262241F084007F833B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F7655292241F084007F833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F76552B2241F086007F833B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F76552E2241F086007F833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7655302241F086007F833B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7655312241F086007F833B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7655382241F118007F833B /* NSAttributedString+SizeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+SizeExtension.m"; sourceTree = "<group>"; };
+		3F7655392241F119007F833B /* UIScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollTextView.h; sourceTree = "<group>"; };
+		3F76553A2241F119007F833B /* NSAttributedString+SizeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+SizeExtension.h"; sourceTree = "<group>"; };
+		3F76553B2241F119007F833B /* NSString+StringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtension.h"; sourceTree = "<group>"; };
+		3F76553C2241F119007F833B /* UIScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollTextView.m; sourceTree = "<group>"; };
+		3F76553D2241F119007F833B /* NSString+StringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtension.m"; sourceTree = "<group>"; };
+		ECE2A1B08F8437D99E5B7FB6 /* Pods-UIScrollTextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollTextDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollTextDemo/Pods-UIScrollTextDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F76551C2241F084007F833B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB0414E743377F276C57885 /* libPods-UIScrollTextDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340771AFDC6BF55E2EE5F6DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0215D28B41E4582D77608B6A /* Pods-UIScrollTextDemo.debug.xcconfig */,
+				ECE2A1B08F8437D99E5B7FB6 /* Pods-UIScrollTextDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F7655162241F084007F833B = {
+			isa = PBXGroup;
+			children = (
+				3F7655212241F084007F833B /* UIScrollTextDemo */,
+				3F7655202241F084007F833B /* Products */,
+				340771AFDC6BF55E2EE5F6DA /* Pods */,
+				CF012DD3FBA8FBF8AAA0407F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7655202241F084007F833B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F76551F2241F084007F833B /* UIScrollTextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7655212241F084007F833B /* UIScrollTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F7655222241F084007F833B /* AppDelegate.h */,
+				3F7655232241F084007F833B /* AppDelegate.m */,
+				3F7655252241F084007F833B /* ViewController.h */,
+				3F7655262241F084007F833B /* ViewController.m */,
+				3F7655392241F119007F833B /* UIScrollTextView.h */,
+				3F76553C2241F119007F833B /* UIScrollTextView.m */,
+				3F76553B2241F119007F833B /* NSString+StringExtension.h */,
+				3F76553D2241F119007F833B /* NSString+StringExtension.m */,
+				3F76553A2241F119007F833B /* NSAttributedString+SizeExtension.h */,
+				3F7655382241F118007F833B /* NSAttributedString+SizeExtension.m */,
+				3F7655282241F084007F833B /* Main.storyboard */,
+				3F76552B2241F086007F833B /* Assets.xcassets */,
+				3F76552D2241F086007F833B /* LaunchScreen.storyboard */,
+				3F7655302241F086007F833B /* Info.plist */,
+				3F7655312241F086007F833B /* main.m */,
+			);
+			path = UIScrollTextDemo;
+			sourceTree = "<group>";
+		};
+		CF012DD3FBA8FBF8AAA0407F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				294CB3D0CC81D17996948330 /* libPods-UIScrollTextDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F76551E2241F084007F833B /* UIScrollTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7655352241F086007F833B /* Build configuration list for PBXNativeTarget "UIScrollTextDemo" */;
+			buildPhases = (
+				0D72B54A3CF36028DAE7B268 /* [CP] Check Pods Manifest.lock */,
+				3F76551B2241F084007F833B /* Sources */,
+				3F76551C2241F084007F833B /* Frameworks */,
+				3F76551D2241F084007F833B /* Resources */,
+				AB74339420556191311A4067 /* [CP] Embed Pods Frameworks */,
+				F419312BFD7C6E0CF29B0C96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollTextDemo;
+			productName = UIScrollTextDemo;
+			productReference = 3F76551F2241F084007F833B /* UIScrollTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7655172241F084007F833B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sunyazhou.com;
+				TargetAttributes = {
+					3F76551E2241F084007F833B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F76551A2241F084007F833B /* Build configuration list for PBXProject "UIScrollTextDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7655162241F084007F833B;
+			productRefGroup = 3F7655202241F084007F833B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F76551E2241F084007F833B /* UIScrollTextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F76551D2241F084007F833B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F76552F2241F086007F833B /* LaunchScreen.storyboard in Resources */,
+				3F76552C2241F086007F833B /* Assets.xcassets in Resources */,
+				3F76552A2241F084007F833B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D72B54A3CF36028DAE7B268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIScrollTextDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB74339420556191311A4067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollTextDemo/Pods-UIScrollTextDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F419312BFD7C6E0CF29B0C96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollTextDemo/Pods-UIScrollTextDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F76551B2241F084007F833B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F76553E2241F119007F833B /* NSAttributedString+SizeExtension.m in Sources */,
+				3F7655272241F084007F833B /* ViewController.m in Sources */,
+				3F7655322241F086007F833B /* main.m in Sources */,
+				3F76553F2241F119007F833B /* UIScrollTextView.m in Sources */,
+				3F7655402241F119007F833B /* NSString+StringExtension.m in Sources */,
+				3F7655242241F084007F833B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7655282241F084007F833B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7655292241F084007F833B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F76552D2241F086007F833B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F76552E2241F086007F833B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7655332241F086007F833B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7655342241F086007F833B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7655362241F086007F833B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0215D28B41E4582D77608B6A /* Pods-UIScrollTextDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CD9DJMEZS;
+				INFOPLIST_FILE = UIScrollTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.UIScrollTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7655372241F086007F833B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE2A1B08F8437D99E5B7FB6 /* Pods-UIScrollTextDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CD9DJMEZS;
+				INFOPLIST_FILE = UIScrollTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.UIScrollTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F76551A2241F084007F833B /* Build configuration list for PBXProject "UIScrollTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7655332241F086007F833B /* Debug */,
+				3F7655342241F086007F833B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7655352241F086007F833B /* Build configuration list for PBXNativeTarget "UIScrollTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7655362241F086007F833B /* Debug */,
+				3F7655372241F086007F833B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7655172241F084007F833B /* Project object */;
+}
