@@ -31,7 +31,6 @@ NSString * const kSeparateText          = @"   ";   //3个空格
     self = [super initWithFrame:frame];
     if (self) {
         [self configProperty];//初始化成员变量
-        self.textSeparateWidth = [kSeparateText calculateSingleLineSizeFromFont:self.font].width;
         [self initLayer];
     }
     return self;
@@ -40,7 +39,6 @@ NSString * const kSeparateText          = @"   ";   //3个空格
 - (void)awakeFromNib {
     [super awakeFromNib];
     [self configProperty];//初始化成员变量
-    self.textSeparateWidth = [kSeparateText calculateSingleLineSizeFromFont:self.font].width;
     [self initLayer];
     [self updateConstraintsIfNeeded]; //主动更新约束
 }
@@ -49,6 +47,7 @@ NSString * const kSeparateText          = @"   ";   //3个空格
     _text = @"";
     _textColor = [UIColor whiteColor];
     _font = [UIFont systemFontOfSize:14.0];
+    self.textSeparateWidth = [kSeparateText calculateSingleLineSizeFromFont:self.font].width;
     _fade = 0.026;
     
 }
@@ -81,13 +80,11 @@ NSString * const kSeparateText          = @"   ";   //3个空格
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
     //设置动画参数http://jefferyfan.github.io/2016/06/27/programing/iOS/CATransaction/
     [CATransaction begin];
     [CATransaction setDisableActions:YES];
     CGFloat textLayerFrameY = CGRectGetHeight(self.bounds)/2 - CGRectGetHeight(self.textLayer.bounds) / 2;
     self.textLayer.frame = CGRectMake(0, textLayerFrameY, CGRectGetWidth(self.textLayerFrame), CGRectGetHeight(self.textLayerFrame));
-    //把当前的渐变layer做为蒙版
     self.gradientLayer.frame = self.bounds;
     [CATransaction commit];
 }

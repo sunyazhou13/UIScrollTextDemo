@@ -23,7 +23,7 @@
     self.scrollTextView1 = [[UIScrollTextView alloc] initWithFrame:CGRectZero];
     self.scrollTextView1.textColor = [UIColor blackColor];
     self.scrollTextView1.font = [UIFont boldSystemFontOfSize:14.0];
-//    self.scrollTextView1.backgroundColor = [UIColor cyanColor];
+    self.scrollTextView1.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:self.scrollTextView1];
     
     [self.scrollTextView1 mas_makeConstraints:^(MASConstraintMaker *make) {
